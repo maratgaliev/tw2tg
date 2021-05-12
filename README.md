@@ -6,7 +6,7 @@ Upload media from tweet to Telegram
 `$ TW_KEY, TW_SECRET, TW_TOKEN, TG_BOT_SECRET`
 
 #### Run bot
-`$ run main.rb`
+`$ ruby main.rb`
 
 #### Bot example
 
