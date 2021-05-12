@@ -44,18 +44,29 @@ GEM
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
     multipart-post (2.1.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
     naught (1.1.0)
     net-http-persistent (4.0.1)
       connection_pool (~> 2.2)
     public_suffix (4.0.6)
+    rack (2.2.3)
+    rack-protection (2.1.0)
+      rack
     rake (13.0.3)
     ruby2_keywords (0.0.4)
     simple_oauth (0.3.1)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
     telegram-bot-ruby (0.15.0)
       faraday
       inflecto
       virtus
     thread_safe (0.3.6)
+    tilt (2.0.10)
     twitter (7.0.0)
       addressable (~> 2.3)
       buftok (~> 0.2.0)
@@ -83,6 +94,7 @@ DEPENDENCIES
   down
   json
   net-http-persistent
+  sinatra
   telegram-bot-ruby
   twitter
 
