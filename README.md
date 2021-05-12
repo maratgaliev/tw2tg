@@ -9,4 +9,7 @@ Upload media from tweet to Telegram
 `$ run main.rb`
 
 #### Bot example
+
+Photo, GIF, Video files are supported for now
+
 ![](https://i.postimg.cc/BZc70zhN/Screen-Shot-2021-05-11-at-11-07-46-PM.png)
